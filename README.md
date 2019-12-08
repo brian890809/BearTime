@@ -1,2 +1,1 @@
-# BearTime
-Other names: Tempo, CalTempo, 
+# Tempo
