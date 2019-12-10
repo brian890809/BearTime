@@ -1,0 +1,183 @@
+body{
+  background-color: #ECF3FB;
+  font-family: Josefin Sans;
+  padding: 0px;
+  margin: 0px;
+}
+.logo{
+  width: 10%;
+  margin: 30px;
+}
+
+.words{
+  margin-top: 80px;
+}
+h1{
+  position: relative;
+  margin-left: 12%;
+  font-size: 50px;
+}
+.small_text{
+  margin-left: 12%;
+  font-size: 21px;
+  font-weight: lighter;
+  color: #8c8c8c;
+  margin-top: 50px;
+}
+.buttons{
+  margin-left: 12%;
+  display: flex;
+  background-color: #23424A;
+  width: 150px;
+  border-radius: 220px;
+}
+.button_word{
+  margin: auto;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #FFFFFF;
+}
+.GS.buttons{
+  margin-top: 50px;
+}
+
+.calendar{
+  width: 12%;
+}
+.text{
+  width: 12%;
+}
+
+.index.blob{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 55%;
+  /* overflow: hidden; */
+  /* z-index: -10; */
+}
+.index.arrow{
+  width: 7%;
+  position: absolute;
+  right: 22%;
+  bottom: 12%;
+  animation-name: arrow_move;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  z-index: 100;
+  /* transition-timing-function:  cubic-bezier(0.895, 0.03, 0.685, 0.22); */
+  /* transform 0.6s */
+}
+@keyframes arrow_move {
+  /* transition-timing-function:  cubic-bezier(0.895, 0.03); */
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 0;
+  }
+  50%{
+    transform: translateX(90px);
+  }
+  55%{
+    opacity: 1;
+    transform: translateX(90px);
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(190px);
+  }
+}
+.index.calendar{
+  position: absolute;
+  right: 3%;
+  bottom: 7%;
+}
+.index.text{
+  position: absolute;
+  right: 31%;
+  bottom: 7%;
+}
+/* .index.images{
+
+} */
+
+
+.contrainer{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.central.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+input[type=text], select, textarea {
+ width: 100%; /* Full width */
+ padding: 12px; /* Some padding */
+ border: 1px solid #ccc; /* Gray border */
+ border-radius: 4px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+ margin-top: 6px; /* Add a top margin */
+
+ resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.schedule_text{
+  font-size: 175%;
+}
+textarea{
+  padding-bottom: 45%;
+  margin-top: 4%;
+  margin-bottom: 10%; /* Bottom margin */
+}
+input[type=submit] {
+ background-color: #23424A;
+ color: white;
+ padding: 20px 20px;
+ border: none;
+ border-radius:  220px;;
+ cursor: pointer;
+ width: 25%;
+}
+.enter_text {
+ border-radius: 5px;
+ padding: 20px;
+ width: 35%;
+}
+.central_rest{
+  margin: auto;
+  margin-top: -2%;
+}
+.central.words{
+  text-align: center;
+}
+.central.text{
+  margin-right: 15%
+}
+
+
+.all_set{
+  margin: auto;
+  text-align: center;
+}
+h2{
+  font-size: 50px;
+}
+.CCS{
+  font-size: 24px;
+  color: #707070;
+  margin-top: 2%
+}
+.Final.buttons{
+  margin: auto;
+  margin-top: 2%;
+}
